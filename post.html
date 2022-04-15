@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài viết</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/post.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header__top">
+            <div class="container">
+                <section class="row flex">
+                    <div class="col-lg-5 col-md-0 col-sm-0 heade__top-left">
+                        <span>Chuyên bán điện thoại</span>
+                    </div>
+
+                    <nav class="col-lg-7 col-md-0 col-sm-0 header__top-right">
+                        <ul class="header__top-list">
+                            <li class="header__top-item">
+                                <a href="#" class="header__top-link">Đăng ký</a>
+                            </li>
+                            <li class="header__top-item">
+                                <a href="#" class="header__top-link">Đăng nhập</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </div>
+      
+        <div class="header__bottom">
+            <div class="container">
+                <section class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-12 header__logo">
+                        <h1 class="header__heading">
+                            <a href="" class="header__logo-link">
+                                <img src="" alt="Logo" class="header__logo-img">
+                            </a>
+                        </h1>
+                    </div>
+
+                    <div class="col-lg-6 col-md-7 col-sm-0 header__search">
+                        <select name="" id="" class="header__search-select">
+                            <option value="0">All</option>
+                            <option value="0">IPhone</option>
+                            <option value="1">Samsung</option>
+                        </select>
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm tại đây...">
+                        <button class="header__search-btn">
+                            <div class="header__search-icon-wrap">
+                                <i class="fas fa-search header__search-icon"></i>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="col-lg-2 col-md-0 col-sm-0 header__call">
+                        <div class="header__call-icon-wrap">
+                            <i class="fas fa-phone-alt header__call-icon"></i>  
+                        </div>
+                        <div class="header__call-info">
+                            <div class="header__call-text">
+                                Gọi điện tư vấn
+                            </div>
+                            <div class="header__call-number">
+                                0333.248.604
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="" class="col-lg-1 col-md-1 col-sm-0 header__cart">
+                        <div class="header__cart-icon-wrap">
+                            <span class="header__notice">4</span>
+                            <i class="fas fa-shopping-cart header__nav-cart-icon"></i>
+                        </div>
+                    </a>
+                </section>
+            </div>   
+        </div>
+        <div class="header__nav">
+            <div class="container">
+                <section class="row">
+                    <div class="header__nav-menu-wrap col-lg-3 col-md-0 col-sm-0">
+                        <i class="fas fa-bars header__nav-menu-icon"></i>
+                        <div class="header__nav-menu-title">Danh mục sản phẩm</div>
+                    </div>
+
+                    <div class="header__nav col-lg-9 col-md-0 col-sm-0">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="index.html" class="header__nav-link">Trang chủ</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="product.html" class="header__nav-link">Sản phẩm</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="post.html" class="header__nav-link">Bài viết</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="contact.html" class="header__nav-link">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </header>
+    <section class="posts">
+        <div class="container">
+            <div class="row pc">
+                <nav class="menu__nav col-lg-3 col-md-12 col-sm-0">
+                    <ul class="menu__list">                
+                        <li class="menu__item">
+                            <a href="" class="menu__link">
+
+                                <svg class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m432.472 90.006c-.306-13.697-.476-28.614-.476-45.004v-15h-386.494c-25.09 0-45.502 20.412-45.502 45.502v360.992c0 25.09 20.412 45.502 45.502 45.502h466.498v-391.992zm-20.385 137.144c4.591 41.436 9.33 84.197 9.86 163.844h-30.004c-.531-81.292-5.361-124.902-10.042-167.148-4.591-41.434-9.329-84.204-9.859-163.844h30.002c.531 81.294 5.362 124.902 10.043 167.148zm-80.147 163.844c-.531-81.292-5.361-124.902-10.042-167.148-4.591-41.434-9.329-84.204-9.859-163.844h30.003c.531 81.292 5.361 124.902 10.042 167.148 4.591 41.434 9.329 84.204 9.859 163.844zm-301.94-315.49c0-8.548 6.954-15.502 15.502-15.502h236.536c.531 81.292 5.361 124.902 10.042 167.148 4.591 41.434 9.329 84.204 9.859 163.844h-256.437c-5.441 0-10.662.96-15.502 2.719zm452 376.494h-436.498c-8.548 0-15.502-6.954-15.502-15.502s6.954-15.502 15.502-15.502h406.494v-15c0-91.076-5.13-137.374-10.091-182.148-3.281-29.61-6.637-59.897-8.479-103.84h48.574z"/></g></svg>
+                            Iphone</a>
+                        </li>
+                        
+                        <li class="menu__item">
+                            <a href="" class="menu__link">
+                                <svg class="menu__item-icon"  id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m432.472 90.006c-.306-13.697-.476-28.614-.476-45.004v-15h-386.494c-25.09 0-45.502 20.412-45.502 45.502v360.992c0 25.09 20.412 45.502 45.502 45.502h466.498v-391.992zm-20.385 137.144c4.591 41.436 9.33 84.197 9.86 163.844h-30.004c-.531-81.292-5.361-124.902-10.042-167.148-4.591-41.434-9.329-84.204-9.859-163.844h30.002c.531 81.294 5.362 124.902 10.043 167.148zm-80.147 163.844c-.531-81.292-5.361-124.902-10.042-167.148-4.591-41.434-9.329-84.204-9.859-163.844h30.003c.531 81.292 5.361 124.902 10.042 167.148 4.591 41.434 9.329 84.204 9.859 163.844zm-301.94-315.49c0-8.548 6.954-15.502 15.502-15.502h236.536c.531 81.292 5.361 124.902 10.042 167.148 4.591 41.434 9.329 84.204 9.859 163.844h-256.437c-5.441 0-10.662.96-15.502 2.719zm452 376.494h-436.498c-8.548 0-15.502-6.954-15.502-15.502s6.954-15.502 15.502-15.502h406.494v-15c0-91.076-5.13-137.374-10.091-182.148-3.281-29.61-6.637-59.897-8.479-103.84h48.574z"/></g></svg>
+                            Samsung</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="breadcrumbs col-lg-12 col-md-12 col-sm-12">
+                    Trang chủ &raquo <span class="breadcrumbs__active">Bài viết</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <article class="post__list col-lg-9 col-md-9 col-sm-12">
+                    <div class="post__item">
+                        <div class="post__item-img-wrap">
+                            <img src="images/iphone 13 pro max.jpg" class="post__item-img">
+                        </div>
+
+                        <div class="post__item-content">
+                            <div class="post__item-title">
+                                <a href="#" class="post__item-link">
+                                    <h2 class="post__item-heading">
+                                        Mua điện thoại nào tốt nhất giữa iPhone, Samsung
+                                    </h2>
+                                </a>
+                            </div>
+
+                            <div class="posts__item-cate-wrap">
+                                <div class="posts__item-cate">
+                                    <i class="fa fa-folder posts__item-cate-icon"></i>
+                                    <div class="posts__item-cate-name">
+                                        Tin tức
+                                    </div>
+                                </div>
+                                <div class="posts__item-cate-ad">
+                                    <i class="fa fa-user posts__item-cate-ad-icon"></i>
+                                    <div class="posts__item-cate-ad-name">
+                                        Phương Nam
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="posts__item-description">
+                                Thời gian trước đây, điện thoại di động chỉ được biết đến với chức năng chính là nghe gọi và không có gì đặc biệt, thế nhưng kể từ chiếc iPhone đầu tiên của Apple xuất hiện, nó đã đánh dấu một bước ngoặc lớn về tính năng và thiết kế mà một điện thoại vốn có.
+                                Chiếc điện thoại di động giờ đây thông minh hơn, kiểu dáng đẹp hơn góp phần không nhỏ trong việc nâng cao chất lượng cuộc sống của con người ngày nay. Ngoài tính năng chính là nghe gọi như trước kia, chúng ta còn có thể giải trí, nghe nhạc, lướt web, xem phim, chơi game,… và chúng thường gọi là điện thoại thông minh hay smartphone.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post__item">
+                        <div class="post__item-img-wrap">
+                            <img src="images/apple-iphone-12-mini-do.png" class="post__item-img">
+                        </div>
+
+                        <div class="post__item-content">
+                            <div class="post__item-title">
+                                <a href="#" class="post__item-link">
+                                    <h2 class="post__item-heading">
+                                        iPhone 13 đã có mặt tại Việt Nam, cửa hàng thức xuyên đêm giao cho khách
+                                    </h2>
+                                </a>  
+                            </div>
+
+                            <div class="posts__item-cate-wrap">
+                                <div class="posts__item-cate">
+                                    <i class="fa fa-folder posts__item-cate-icon"></i>
+                                    <div class="posts__item-cate-name">
+                                        Tin tức
+                                    </div>
+                                </div>
+                                <div class="posts__item-cate-ad">
+                                    <i class="fa fa-user posts__item-cate-ad-icon"></i>
+                                    <div class="posts__item-cate-ad-name">
+                                        Phương Nam
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="posts__item-description">
+                                Theo ghi nhận của Vienamnet, lượng khách hàng quan tâm đến Iphone 13 series tại qua các kênh trực tuyến lên đến hơn 9.000 lượt, tăng 20% so với thế hệ Iphone 12; trong đó Iphone 13 Pro Max chiếm 55%, bản 13 Pro chiếm 20%, Iphone 13 chiếm 22% và Iphone 13 mini chiếm 3%.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post__item">
+                        <div class="post__item-img-wrap">
+                            <img src="images/apple-iphone-12-mini-den.png" class="post__item-img">
+                        </div>
+
+                        <div class="post__item-content">
+                            <div class="post__item-title">
+                                <a href="#" class="post__item-link">
+                                    <h2 class="post__item-heading">
+                                        7 điện thoại iPhone đáng mua nhất 2021
+                                    </h2>
+                                </a>
+                            </div>
+
+                            <div class="posts__item-cate-wrap">
+                                <div class="posts__item-cate">
+                                    <i class="fa fa-folder posts__item-cate-icon"></i>
+                                    <div class="posts__item-cate-name">
+                                        Tin tức
+                                    </div>
+                                </div>
+                                <div class="posts__item-cate-ad">
+                                    <i class="fa fa-user posts__item-cate-ad-icon"></i>
+                                    <div class="posts__item-cate-ad-name">
+                                        Phương Nam
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="posts__item-description">
+                                iPhone 12 sở hữu nhiều điểm tuyệt vời như chip A14 Bionic 5 nm mạnh mẽ, camera chính 7 thành phần ấn tượng và kết nối 5G với giá cả phải chăng hơn, thiết kế chất liệu vượt trội và khả năng chụp ảnh và quay video của iPhone 12 Pro, vì vậy iPhone 12 là chiếc iPhone mới tốt nhất mà nhiều người dùng có thể mua hơn.
+                                iPhone 12 có màn hình OLED mới đi kèm với thiết kế viền cạnh phẳng thanh lịch và viền hẹp hơn, tối đa hóa diện tích hiển thị. Máy cũng được trang bị sạc không dây ​​MagSafe mới của Apple, mở ra tiềm năng mới cho các phụ kiện và giúp sạc không dây nhanh hơn và tiện lợi hơn.                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__item">
+                        <div class="post__item-img-wrap">
+                            <img src="images/iphone-13-pro-va-iphone-13-pro-max-x.webp" class="post__item-img">
+                        </div>
+
+                        <div class="post__item-content">
+                            <div class="post__item-title">
+                                <a href="#" class="post__item-link">
+                                    <h2 class="post__item-heading">
+                                        5 điều người dùng muốn thấy từ Apple trong năm 2021
+                                    </h2>
+                                </a>  
+                            </div>
+
+                            <div class="posts__item-cate-wrap">
+                                <div class="posts__item-cate">
+                                    <i class="fa fa-folder posts__item-cate-icon"></i>
+                                    <div class="posts__item-cate-name">
+                                        Tin tức
+                                    </div>
+                                </div>
+                                <div class="posts__item-cate-ad">
+                                    <i class="fa fa-user posts__item-cate-ad-icon"></i>
+                                    <div class="posts__item-cate-ad-name">
+                                        Phương Nam
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="posts__item-description">
+                                Năm 2020, nhiều nhà sản xuất đã phải đối mặt với rất nhiều khó khăn và  Apple  cũng không nằm ngoài xu hướng đó. Mặc dù vậy, công ty đã kết thúc năm 2020 với rất nhiều chiến thắng. Vào năm 2021, công ty có thể sẽ tiếp tục làm những gì mà họ cho là tốt nhất nhưng vẫn còn nhiều chỗ để cải thiện.
+                                Dưới đây, là 5 điều người dùng muốn thấy nhất từ ​​Apple vào năm 2021, theo androidauthority.                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__item">
+                        <div class="post__item-img-wrap">
+                            <img src="images/z-fold-3-vaz-flip-3-3-103157.jpeg" class="post__item-img">
+                        </div>
+
+                        <div class="post__item-content">
+                            <div class="post__item-title">
+                                <a href="#" class="post__item-link">
+                                   <h2 class="post__item-heading">
+                                    Samsung đặt mục tiêu xuất xưởng 7 triệu chiếc Fold 3 và Flip 3 trong 2021
+                                    </h2> 
+                                </a>
+                            </div>
+
+                            <div class="posts__item-cate-wrap">
+                                <div class="posts__item-cate">
+                                    <i class="fa fa-folder posts__item-cate-icon"></i>
+                                    <div class="posts__item-cate-name">
+                                        Tin tức
+                                    </div>
+                                </div>
+                                <div class="posts__item-cate-ad">
+                                    <i class="fa fa-user posts__item-cate-ad-icon"></i>
+                                    <div class="posts__item-cate-ad-name">
+                                        Phương Nam
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="posts__item-description">
+                                Elec báo cáo rằng Samsung gần đây đã đặt mục tiêu nội bộ đầy tham vọng là xuất xưởng từ 6 đến 7 triệu chiếc kết hợp giữa Galaxy Z Fold 3 và Flip 3 sắp tới vào cuối năm 2021.
+                                Thương hiệu Hàn Quốc kỳ vọng Galaxy Z Flip 3 nhỏ gọn (và rẻ hơn) sẽ trở thành mẫu điện thoại có thể gập lại phổ biến nhất, với mục tiêu là 4 triệu chiếc. Galaxy Z Fold 3 đắt hơn có thể lên tới 3 triệu chiếc.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__item">
+                        <div class="post__item-img-wrap">
+                            <img src="images/tablet-gap-ba-cover-195157.jpg" class="post__item-img">
+                        </div>
+
+                        <div class="post__item-content">
+                            <div class="post__item-title">
+                                <a href="#" class="post__item-link">
+                                    <h2 class="post__item-heading">
+                                        Cận cảnh chiếc máy tính bảng gập 3 của Samsung - Galaxy Z Fold Tab
+                                    </h2>
+                                </a>
+                            </div>
+
+                            <div class="posts__item-cate-wrap">
+                                <div class="posts__item-cate">
+                                    <i class="fa fa-folder posts__item-cate-icon"></i>
+                                    <div class="posts__item-cate-name">
+                                        Tin tức
+                                    </div>
+                                </div>
+                                <div class="posts__item-cate-ad">
+                                    <i class="fa fa-user posts__item-cate-ad-icon"></i>
+                                    <div class="posts__item-cate-ad-name">
+                                        Phương Nam
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="posts__item-description">
+                                Tuy nhiên, trang Gizmochina mới đây vừa độc quyền chia sẻ thông tin cho biết thiết bị này sẽ chỉ được trình làng vào năm 2022.
+                                Điểm thú vị là rò rỉ này cho biết, chiếc máy tính bảng gập ba sắp tới của Samsung sẽ có tên gọi là Galaxy Z Fold Tab.
+                                Hiện tại, các thiết bị như Galaxy Z Fold2 đã làm mờ ranh giới với máy tính bảng và smartphone khi có màn hình 7.6 inch nhưng chiếc tablet màn hình gập sắp tới của Samsung sẽ còn lớn hơn.
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav class="post__pagination">
+                      <ul class="post__pagination-list">
+                        <li class="post__pagination-item">
+                          <a class="post__pagination-link" href="#" aria-label="Previous">
+                            <span class="post__pagination-link-prev">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="post__pagination-item post__pagination-item--active">
+                            <a class="post__pagination-link" href="#">1</a>
+                        </li>
+                        <li class="post__pagination-item">
+                            <a class="post__pagination-link" href="#">2</a>
+                        </li>
+                        <li class="post__pagination-item">
+                            <a class="post__pagination-link" href="#">3</a>
+                        </li>
+                        <li class="post__pagination-item post__pagination-item--center">...</li>
+                        <li class="post__pagination-item">
+                            <a class="post__pagination-link" href="#">9</a>
+                        </li>
+                        <li class="post__pagination-item">
+                            <a class="post__pagination-link" href="#">10</a>
+                        </li>
+                        <li class="post__pagination-item">
+                            <a class="post__pagination-link" href="#">11</a>
+                        </li>
+                        <li class="post__pagination-item">
+                          <a class="post__pagination-link" href="#" aria-label="Next">
+                            <span class="post__pagination-link-next">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                </article>
+
+                <aside class="post__aside col-lg-3 col-md-3 col-sm-0">
+                    <div class="post__aside-top">
+                        <div class="post__aside-title">
+                            <h3 class="post__aside-heading">
+                                Bài viết liên quan
+                            </h3>
+
+                            <div class="post__aside-list">
+                                <div class="post__aside-item post__aside-item--no-border">
+                                    <div class="post__aside-img-wrap">
+                                        <img src="images/iphone 13 pro max.jpg" class="post__aside-img">
+                                    </div>
+                                    <div class="post__aside-title">
+                                        <a href="#" class="post__aside-link">
+                                            <h4 class="post__aside-link-heading">
+                                                Mua điện thoại nào tốt nhất giữa iPhone, Samsung</h4>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="post__aside-item post__aside-item--no-border">
+                                    <div class="post__aside-img-wrap">
+                                        <img src="images/apple-iphone-12-mini-do.png" class="post__aside-img">
+                                    </div>
+                                    <div class="post__aside-title">
+                                        <a href="#" class="post__aside-link">
+                                            <h4 class="post__aside-link-heading">
+                                                iPhone 13 đã có mặt tại Việt Nam, cửa hàng thức xuyên đêm giao cho khách</h4>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="post__aside-item post__aside-item--no-border">
+                                    <div class="post__aside-img-wrap">
+                                        <img src="images/tablet-gap-ba-cover-195157.jpg" class="post__aside-img">
+                                    </div>
+                                    <div class="post__aside-title">
+                                        <a href="#" class="post__aside-link">
+                                            <h4 class="post__aside-link-heading">
+                                                Cận cảnh chiếc máy tính bảng gập 3 của Samsung - Galaxy Z Fold Tab</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__aside-bottom">
+                        <h3 class="post__aside-heading">
+                            Có thể bạn thích
+                        </h3>
+
+                        <div class="post__aside-list">
+                            <div class="post__aside-item post__aside-item--border">
+                                <div class="post__aside-img-wrap">
+                                    <img src="images/sam-sung.png" class="post__aside-img">
+                                </div>
+                                <div class="post__aside-title">
+                                    <a href="#" class="post__aside-link">
+                                        <h4 class="post__aside-link-heading">Samsung</h4>
+                                    </a>
+
+                                    <div class="post__aside-rate-wrap">
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                    </div>
+
+                                    <div class="post__aside-price">
+                                        <span class="post__aside-price-current">
+                                            9.790.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__aside-item">
+                                <div class="post__aside-img-wrap">
+                                    <img src="images/apple-iphone-12-mini-do.png" class="post__aside-img">
+                                </div>
+                                <div class="post__aside-title">
+                                    <a href="#" class="post__aside-link">
+                                        <h4 class="post__aside-link-heading">IPhone</h4>
+                                    </a>
+
+                                    <div class="post__aside-rate-wrap">
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                    </div>
+
+                                    <div class="post__aside-price">
+                                        <span class="post__aside-price-current">
+                                            17.490.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__aside-item">
+                                <div class="post__aside-img-wrap">
+                                    <img src="images/iphone 13 pro max.jpg" class="post__aside-img">
+                                </div>
+                                <div class="post__aside-title">
+                                    <a href="#" class="post__aside-link">
+                                        <h4 class="post__aside-link-heading">IPhone</h4>
+                                    </a>
+
+                                    <div class="post__aside-rate-wrap">
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                    </div>
+
+                                    <div class="post__aside-price">
+                                        <span class="post__aside-price-current">
+                                            19.200.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__aside-item">
+                                <div class="post__aside-img-wrap">
+                                    <img src="images/apple-iphone-12-mini-do.png" class="post__aside-img">
+                                </div>
+                                <div class="post__aside-title">
+                                    <a href="#" class="post__aside-link">
+                                        <h4 class="post__aside-link-heading">IPhone</h4>
+                                    </a>
+
+                                    <div class="post__aside-rate-wrap">
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                    </div>
+
+                                    <div class="post__aside-price">
+                                        <span class="post__aside-price-current">
+                                            15.200.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__aside-item">
+                                <div class="post__aside-img-wrap">
+                                    <img src="images/z-fold-3-vaz-flip-3-3-103157.jpeg" class="post__aside-img">
+                                </div>
+                                <div class="post__aside-title">
+                                    <a href="#" class="post__aside-link">
+                                        <h4 class="post__aside-link-heading">Samsung</h4>
+                                    </a>
+
+                                    <div class="post__aside-rate-wrap">
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                    </div>
+
+                                    <div class="post__aside-price">
+                                        <span class="post__aside-price-current">
+                                            22.220.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__aside-item">
+                                <div class="post__aside-img-wrap">
+                                    <img src="images/sam sung.png" class="post__aside-img">
+                                </div>
+                                <div class="post__aside-title">
+                                    <a href="#" class="post__aside-link">
+                                        <h4 class="post__aside-link-heading">Samsung</h4>
+                                    </a>
+
+                                    <div class="post__aside-rate-wrap">
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                    </div>
+
+                                    <div class="post__aside-price">
+                                        <span class="post__aside-price-current">
+                                            11.120.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__aside-item">
+                                <div class="post__aside-img-wrap">
+                                    <img src="images/iphone 13 pro max.jpg" class="post__aside-img">
+                                </div>
+                                <div class="post__aside-title">
+                                    <a href="#" class="post__aside-link">
+                                        <h4 class="post__aside-link-heading">IPhone</h4>
+                                    </a>
+
+                                    <div class="post__aside-rate-wrap">
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                    </div>
+
+                                    <div class="post__aside-price">
+                                        <span class="post__aside-price-current">
+                                            20.000.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__aside-item">
+                                <div class="post__aside-img-wrap">
+                                    <img src="images/sam sung.png" class="post__aside-img">
+                                </div>
+                                <div class="post__aside-title">
+                                    <a href="#" class="post__aside-link">
+                                        <h4 class="post__aside-link-heading">Samsung</h4>
+                                    </a>
+
+                                    <div class="post__aside-rate-wrap">
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                        <i class="fas fa-star post__aside-rate"></i>
+                                    </div>
+
+                                    <div class="post__aside-price">
+                                        <span class="post__aside-price-current">
+                                            50.000.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    <footer>
+        <section class="footer__top">
+            <div class="container">
+                <div class="row">
+                    <article class="footer__top-intro col-lg-5 col-md-4 col-sm-6">
+                        <h4 class="footer__top-intro-heading">
+                            Về chúng tôi
+                        </h4>
+                        <div class="footer__top-intro-content">
+                            Hệ thống chuyên cung cấp những
+                            phụ kiện, thiết bị cần thiết cho các bạn.
+                            Chúng tôi sẽ liên tục cập nhật những sản
+                            phẩm mới nhất, chất lượng nhất, hợp thời
+                            nhất giúp các bạn có những trải nghiệm 
+                            tuyệt vời! <br> <br>
+                            Địa chỉ: 322 Nhân Mỹ,Mỹ Đình I ,Nam Từ Liêm ,TP.Hà Nội<br>
+                            Điện thoại:  0333 248 604 <br>
+                            Email: namnan151@gmail.com <br>
+                            Zalo: 0333 248 604 <br>
+                        </div>
+                    </article>
+
+                    <article class="footer__top-policy col-lg-3 col-md-4 col-sm-6">
+                        <h4 class="footer__top-policy-heading">
+                            Chính sách mua hàng
+                        </h4>
+
+                        <ul class="footer__top-policy-list">
+                            <li class="footer__top-policy-item">
+                                <a href="#" class="footer__top-policy-link">Hình thức đặt hàng</a>
+                            </li>
+                            <li class="footer__top-policy-item">
+                                <a href="#" class="footer__top-policy-link">Hình thức thanh toán</a>
+                            </li>
+                            <li class="footer__top-policy-item">
+                                <a href="#" class="footer__top-policy-link">Phương thức vận chuyển</a>
+                            </li>
+                            <li class="footer__top-policy-item">
+                                <a href="#" class="footer__top-policy-link">Chính sách đổi trả</a>
+                            </li>
+                            <li class="footer__top-policy-item">
+                                <a href="#" class="footer__top-policy-link">Hướng dẫ sử dụng</a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="footer__top-contact-wrap col-lg-4 col-md-4 col-sm-6">
+                        <h4 class="footer__top-contact-heading">
+                            Hotline liên hệ
+                        </h4>
+
+                        <div class="footer__top-contact">
+                            <div class="footer__top-contact-icon">
+                                <img src="images/phone_top.png" class="footer__top-contact-img">
+                            </div>
+
+                            <div class="footer__top-contact-phone-wrap">
+                                <div class="footer__top-contact-phone">
+                                 0333 248 604
+                                </div>
+                                <div class="footer__top-contact-des">
+                                    (Tư vấn miễn phí 24/24)
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <h4 class="footer__top-contact-heading">
+                            Kết nối với chúng tôi
+                        </h4>
+
+                        <div class="footer__top-contact-social">
+                            <a href="#" class="footer__top-contact-social-link">
+                                <img src="images/facebook.png">
+                            </a>
+                            <a href="#" class="footer__top-contact-social-link">
+                                <img src="images/youtube.png">
+                            </a>
+                            <a href="#" class="footer__top-contact-social-link">
+                                <img src="images/tiktok.png">
+                            </a>
+                            <a href="#" class="footer__top-contact-social-link">
+                                <img src="images/zalo.png">
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="footer__bottom">
+            <div class="container">
+                <div class="row">
+                    <span class="footer__bottom-content">@Bản quyền | Thiết kế</span>
+                </div>
+            </div>
+        </section>
+
+    <script src="js/jq.js"></script>
+</body>
+</html>
