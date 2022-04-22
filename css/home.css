@@ -202,13 +202,13 @@
     flex: 1;
 }
 .bestselling__banner-left-img {
-    width: 100%;
+    width: 75%;
 }
 .bestselling__banner-right {
     flex: 1;
 }
 .bestselling__banner-right-img {
-    width: 100%;
+    width: 75%;
     margin-right: 0;
 }
 
